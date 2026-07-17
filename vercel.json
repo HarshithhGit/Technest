@@ -4,9 +4,11 @@
       "root": "frontend",
       "framework": "nextjs"
     },
-    "backend": {
-      "root": "backend"
-    }
+   "backend": {
+  "root": "backend",
+  "framework": "express",
+  "entrypoint": "server.js"
+}
   },
   "rewrites": [
     {
